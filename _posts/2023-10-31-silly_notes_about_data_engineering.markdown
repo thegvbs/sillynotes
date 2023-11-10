@@ -17,3 +17,14 @@ Os dados analíticos, como o nome sugere, surgem por meio de cálculos ou análi
 
 ## Dados mestres ##
 Os dados mestres representam os objetos de negócios reais e críticos sobre os quais essas transações são realizadas, levando também em consideração os parâmetros com base nos quais a análise de dados é realizada.
+
+## ETL ##
+**Extract, transform, load**. É o processo de extrair dados de uma fonte (raw) transformar e carregar para um data-base.
+![](https://learn.microsoft.com/pt-br/azure/architecture/data-guide/images/etl.png)
+
+## ELT ##
+**Extract, load, transform**. É o processo de transformar os dados diretamente no banco de dados, surgiu com o cloud computing e torna os dados mais escaláveis.
+![](https://learn.microsoft.com/pt-br/azure/architecture/data-guide/images/elt.png)
+
+## Analytics ##
+O processo de análise de dados.
