@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-11-07T23:09:00-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Silly Notes</title><subtitle>Silly notes about what I learn.</subtitle><entry><title type="html">Silly Notes about Data Engineering</title><link href="http://localhost:4000/jekyll/update/2023/10/31/silly_notes_about_data_engineering.html" rel="alternate" type="text/html" title="Silly Notes about Data Engineering" /><published>2023-10-31T21:25:22-03:00</published><updated>2023-10-31T21:25:22-03:00</updated><id>http://localhost:4000/jekyll/update/2023/10/31/silly_notes_about_data_engineering</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2023/10/31/silly_notes_about_data_engineering.html"><![CDATA[<p>Bem vindos a minha jornada como engenheiro de dados.</p>
+
+<h2 id="pipeline-de-dados">Pipeline de dados</h2>
+<p>O engenheiro de dados é responsável por integrar, modelar e processar dados. Para esse processo, damos o conceito de <em>pipeline de dados</em>, que garante um dado pontual e íntegro.</p>
+
+<h2 id="dados-transacionais">Dados transacionais</h2>
+<p>Dados transacionais são dados capturados de transações, podendo ser gerado por diversos aplicativos</p>
+
+<h2 id="dados-analíticos">Dados analíticos</h2>
+<p>Os dados analíticos, como o nome sugere, surgem por meio de cálculos ou análises executadas nos dados transacionais.</p>
+
+<h2 id="dados-mestres">Dados mestres</h2>
+<p>Os dados mestres representam os objetos de negócios reais e críticos sobre os quais essas transações são realizadas, levando também em consideração os parâmetros com base nos quais a análise de dados é realizada.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[Bem vindos a minha jornada como engenheiro de dados.]]></summary></entry><entry><title type="html">Silly Notes about Data Science from Scratch</title><link href="http://localhost:4000/jekyll/update/2023/10/31/silly_notes_about_data_science.html" rel="alternate" type="text/html" title="Silly Notes about Data Science from Scratch" /><published>2023-10-31T21:25:22-03:00</published><updated>2023-10-31T21:25:22-03:00</updated><id>http://localhost:4000/jekyll/update/2023/10/31/silly_notes_about_data_science</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2023/10/31/silly_notes_about_data_science.html"><![CDATA[<h2 id="olá-mundo">Olá, mundo</h2>
+
+<p>Dias atrás decidi finalmente tirar da estante e ler o livro <strong>Data Science do Zero</strong> de Joel Grus.
+Pensei que documentar meu aprendizado poderia ajudar em revisões e alguns iniciantes na área. 
+Neste livro utilizamos a linguagem Python pois dispõe de inúmeras bibliotecas e é nossa favorita.</p>
+
+<p>Ciência de dados é a habilidade estatística e matemática usada para criar ideias de negócios a partir de dados, indico <a href="https://aws.amazon.com/pt/what-is/data-science/">este artigo</a>.</p>
+
+<h2 id="iniciando">Iniciando</h2>
+<p>Primeiramente, é necessário baixar o Python e você pode fazer isso no site do <a href="https://www.python.org">Python</a>.
+Eu recomendo também, ler a documentação oficial de boas práticas do Python <a href="https://pep8.org/">(pep8)</a>, usaremos elas.</p>
+
+<h2 id="ambientes-virtuais-e-pip">Ambientes virtuais e pip</h2>
+<p>Não crie o mau hábito de usar a instalação padrão do Python para todos seus projetos.
+Para separar seus projetos, facilitar o uso de versões de bibliotecas e até do Python, existe o <em>venv</em>.
+Para criar um ambiente virtual, digite no terminal: <code>python -m venv nomedoprojeto </code></p>
+
+<p>Dentro desse ambiente virtual você pode instalar bibliotecas através do <em>pip</em>, o gerenciador de pacotes do Python. Ele vem instalado junto com o Python e para usá-lo, digite no terminal: <code> pip install nomedopacote </code></p>
+<h2 id="funções">Funções</h2>
+<p>Funções ou módulos, são regras que recebem argumentos (entradas) e retornam uma saída.
+<code> def funcao(idade):<br />
+    &nbsp;return 21
+ </code></p>
+
+<p>Ao chamar a função ela irá printar 21.</p>
+
+<h2 id="strings">Strings</h2>
+<p>Strings são cadeias de caracteres, definidas por aspas simples ou duplas:</p>
+
+<p><code> nome = "Gabriel" </code></p>
+
+<p><code> sobrenome = "Francisco" </code></p>
+
+<h2 id="listas">Listas</h2>
+<p>Lista ou em outras linguagens simplesmente <em>array</em>, é uma coleção de dados ordenados:</p>
+
+<p><code> numeros = [1,2,3] </code></p>
+
+<p>Para pegar uma posição da lista utilize colchetes:</p>
+
+<p><code> numeros[0]</code> retornará 1, pois as listas iniciam na posição 0</p>
+
+<p><code> numeros[1]</code> retornará 2</p>
+
+<p><code> numeros[2]</code> retornará 3</p>
+
+<h2 id="tuplas">Tuplas</h2>
+<p>Parecidas com as listas, porém não são manipuláveis.</p>
+
+<p><code>tupla = (1,2,3)</code></p>
+
+<h2 id="dicionários">Dicionários</h2>
+<p>Dicionário ou dict, é uma estrutura de chave e valor.</p>
+
+<p><code> gabs = {'Nome': 'Gabriel', 'Idade': 21}</code></p>
+
+<p>Se for pegar um valor, use o método .get():</p>
+
+<p><code>pega_nome = gabs.get('Nome')</code> retorna Gabriel.</p>
+
+<p><code>pega_idade = gabs.get('Idade')</code> retorna 21.</p>
+
+<h2 id="fluxo-de-controle">Fluxo de Controle</h2>
+<p>São ações condicionais.</p>
+
+<p><code>if 1 &gt; 2:
+    <br />&nbsp;print('Algo está errado, isso não faz sentido.')
+    <br />elif 1 &gt; 3:
+        <br />&nbsp;print('Houston, we got a problem!)
+    <br />else:
+        <br />&nbsp;print('As coisas parecem em ordem por aqui!')
+        </code>
+<br /><br />Você também pode fazer isso em uma linha só:
+<br /><code> paridade = "par" if x % 2 == 0 else "impar" </code></p>
+
+<p>Em alguns casos usamos o loop <em>while</em>:
+<br />
+<code> x = 0 
+<br />while x &lt; 10:
+<br />&nbsp;print(f"{x} é menor que 10")
+<br />&nbsp;x += 1
+</code>
+<br /><br />Porém o mais comum é usarmos <em>for</em> e <em>in</em></p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[Olá, mundo]]></summary></entry><entry><title type="html">Silly Notes about Statistics</title><link href="http://localhost:4000/jekyll/update/2023/10/31/silly_notes_about_statistics.html" rel="alternate" type="text/html" title="Silly Notes about Statistics" /><published>2023-10-31T21:25:22-03:00</published><updated>2023-10-31T21:25:22-03:00</updated><id>http://localhost:4000/jekyll/update/2023/10/31/silly_notes_about_statistics</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2023/10/31/silly_notes_about_statistics.html"><![CDATA[<p>Aproveitando a temporada de leitura, também dediquei um tempo a algumas anotações do livro <strong>Estatística Prática para Cientista de Dados</strong> de Peter Bruce e Andrew Bruce, com o intuito de melhorar meu conhecimento em estatística e matemática.</p>
+
+<h2 id="história">História</h2>
+<p>A matéria de estatística surgiu no século XX, a teoria das probabilidades – fundamento matemático de estatística – foi desenvolvida em XVII e XIX por Thomas Bayes, Pierre-Simon Laplace e Carl Gauss. A estatística moderna tem sua origem com Francis Galton no final de 1800. 
+A estatística clássica é baseada na <em>inferência</em>, basicamente um conjunto de procedimentos para tirar conclusões de populações baseadas em amostras.
+Em 1962, John W. Turkey – criador dos termos bit e software – propõe a análise de dados, colocando a inferência como apenas uma parte de um processo bem mais complexo.</p>
+
+<h2 id="dados-estruturados">Dados estruturados</h2>
+<p>Lidamos com diversos tipos de dados e é <strong>extremamente importante</strong> saber com o que estamos trabalhando em ciência de dados, afinal esse é o maior desafio, transformar dados não estruturados em informação acessível.</p>
+
+<h2 id="glossário-de-tipos-de-dados">Glossário de tipos de dados</h2>
+<blockquote>
+  <p>Contínuos
+<br />Dados que podem assumir qualquer valor em um intervalo.</p>
+</blockquote>
+
+<blockquote>
+  <p>Discretos
+<br />Dados que podem assumir valores numéricos (inteiro).</p>
+</blockquote>
+
+<blockquote>
+  <p>Categóricos
+<br />Dados podem assumir somente um conjunto específico de valores.
+<br />Ex: Alabama, TV de LED, Plasma, LCD etc.</p>
+</blockquote>
+
+<blockquote>
+  <p>Binários
+<br />Dados categóricos que só assumem dois valores (0 ou 1, verdadeiro ou falso).</p>
+</blockquote>
+
+<blockquote>
+  <p>Ordinais
+<br />É um dado categórico que possui ordem explícita.
+<br />Ex: 1, 2, 3, 4 ou 5</p>
+</blockquote>
+
+<p>Declarar os tipos de dados melhora seu desempenho computacional e como o software processa os cálculos.</p>
+
+<h2 id="dados-retangulares">Dados retangulares</h2>
+<p>Dado retangular é uma planilha ou tabela de um banco de dados  (ou matriz bidimensional com <strong>linhas indicando registros</strong> e <strong>colunas indicando características</strong>).</p>
+
+<p><strong>Quadro de dados</strong>
+<br />Os dados retangulares (planilha) são a estrutura básica de dados para estatística e aprendizado de máquina.</p>
+
+<p><strong>Característica</strong>
+<br />São as colunas na tabela.</p>
+
+<p><strong>Registros</strong>
+<br />São as linhas na tabela.</p>
+
+<p><img /><img src="https://www.sqlshack.com/wp-content/uploads/2020/07/anatomy-of-a-sql-table-1.png" alt="Tabela" />
+Exemplo de tabela.</p>
+
+<h2 id="quadro-de-dados-e-índices">Quadro de dados e Índices</h2>
+<p>Nas tabelas de bancos de dados relacionais, uma ou mais colunas são usadas como índices. O que facilita uma consulta em SQL posteriormente. Em Python, com a biblioteca pandas, a estrutura básica de dados retangulares é um objeto <em>DataFrame</em>. Por padrão, é atribuído um índice automático com base nos registros ao criar um <em>DataFrame</em>.</p>
+
+<h2 id="dados-não-retangulares">Dados não retangulares</h2>
+<p>Estrutura de dados especiais, focados em um objeto como um vídeo, foto, texto, emoji, etc.</p>
+
+<h2 id="estimativas-de-localização">Estimativas de localização</h2>
+<p>Variáveis com dados de medição ou contagem que podem ter milhares de valores diferentes. É importante definir um “valor típico” para cada característica.</p>
+
+<p><strong>Média</strong>
+<br /> A soma de todos os valores, dividida pelo número de valores.</p>
+
+<p><strong>Média ponderada</strong>
+<br />A soma de todos os valores, multiplicada por um peso e dividida pela soma dos pesos</p>
+
+<p><strong>Mediana</strong>
+<br />Valor que ocupa a posição central dos dados</p>
+
+<p><strong>Mediana ponderada</strong>
+<br />Valor cuja posição está no centro da soma dos pesos, estando metade da soma antes e metade depois desse dado.</p>
+
+<p><strong>Média aparada/truncada</strong>
+<br />A média de todos os valores depois da exclusão de um número fixos de valores extremos</p>
+
+<p><strong>Outlier</strong>
+<br />Um valor de dados que é muito diferente da maioria dos dados.</p>
+
+<p>Vamos nos aprofundar nas definições de cada estimativa.</p>
+
+<h2 id="média">Média</h2>
+<p>A estimativa para localizar dados mais básica é a média, ou valor médio. A média é a soma de todos os valores, dividida pelo número de valores. Considere: {3 5 1 2}. A média é (3 + 5 + 1 + 2 ) / 4 = 11 / 4 = 2,75.
+<br />Sua fórmula é: <img src="https://matematicabasica.net/wp-content/uploads/2019/02/definicao-media-aritmetica.png" alt="&quot;&quot;" />
+<br />O símbolo X̄ representa média de uma amostra de população. N (ou n) representa o número total de reigstros. <strong>Em estatística, ele é maiúsculo se for referente a uma população e minúsculo se for referente a uma amostra de população. Em ciência de dados, a representação é indiferente.</strong></p>
+
+<h2 id="média-aparada">Média aparada</h2>
+<p>É calculada excluindo um número fixado de valores selecionados em cada ponta , e então tirando uma média dos valores restantes.
+<br />Sua fórmula é: <img src="https://miro.medium.com/v2/resize:fit:644/1*wsvNuI9WU05wr7tlf3URLg.png" alt="''" />
+<br />Uma média aparada elimina a influência dos valores extremos.</p>
+
+<h2 id="média-ponderada">Média ponderada</h2>
+<p>Se calcula pela multiplicação de cada valor de dado xi por um peso wi e dividindo a somatória pela soma de todos os pesos.
+<br />Sua fórmula é: <img src="https://matesnoaburridas.files.wordpress.com/2017/05/formula_media_ponderada.gif" alt="&quot;&quot;" /></p>
+
+<h2 id="mediana">Mediana</h2>
+<p>A mediana é o número central em uma lista de dados classificada. Se houver um número par de valores de dados, o valor central é aquele que não está realmente no  conjunto de dados, mas sim a média dos dois valores que dividem os valores classificados em superior e inferior. Digamos que queremos observar os rendimentos familiares em bairros próximos a Lake Washington, em Seattle.
+Ao comparar o bairro Medina com o bairro Windermere, usando a média teríamos resultados muito distintos, pois Bill Gates mora em Medina. Porém, se usarmos a mediana, não importa a fortuna de Bill Gates – pois a observação central será a mesma –.</p>
+
+<h2 id="outliers">Outliers</h2>
+<p>Qualquer valor que seja muito distante dos outros valores observados em um conjunto de dados. Um outlier não torna o valor de um dado inválido ou errado (como no exemplo anterior com Bill Gates).
+Ainda assim, um outlier costuma ser o resultado de erros de dados, como mistura de unidades diferentes. <em>Em qualquer caso, devem ser identificados e investigados.</em></p>
+
+<p><strong>Detecção de anomalias</strong>
+<br />Na detecção de anomalias, o ponto de interesse são os outliers para definir os valores “normais” dos dados.</p>
+
+<h2 id="estimativas-de-localização-de-populaçlão-e-taxas-de-homicídio">Estimativas de Localização de Populaçlão e Taxas de Homicídio</h2>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[Aproveitando a temporada de leitura, também dediquei um tempo a algumas anotações do livro Estatística Prática para Cientista de Dados de Peter Bruce e Andrew Bruce, com o intuito de melhorar meu conhecimento em estatística e matemática.]]></summary></entry></feed>
