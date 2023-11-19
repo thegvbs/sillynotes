@@ -103,4 +103,6 @@ Ainda assim, um outlier costuma ser o resultado de erros de dados, como mistura 
 **Detecção de anomalias**
 <br>Na detecção de anomalias, o ponto de interesse são os outliers para definir os valores "normais" dos dados.
 
-## Estimativas de Localização de População e Taxas de Homicídio ##
+## Exemplo:  Estimativas de Localização de População e Taxas de Homicídio ##
+
+![](https://i.imgur.com/3BAZIhL.png)

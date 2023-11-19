@@ -28,3 +28,6 @@ Os dados mestres representam os objetos de negócios reais e críticos sobre os 
 
 ## Analytics ##
 O processo de análise de dados.
+
+## Big Data ##
+Big Data é o conceito de alto **volume, variedade e velocidade dos dados**.
