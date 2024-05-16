@@ -6,8 +6,6 @@ Pensei que documentar algumas partes, poderia ajudar em revisões e alguns inici
 1. [Curso intensivo de Python](#curso-intensivo-de-python)
 2. [Visualizando Dados (matplotlib)]()
 4. [Álgebra Linear]()
-5. [Estatística]()
-6. [Probabilidade]()
 9. [Obtendo Dados]()
 11. [Aprendizado de Máquina]()
 21. [Processamento de Linguagem Natural(**NLP**)]()
