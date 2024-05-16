@@ -1,14 +1,23 @@
-## Olá, mundo ##
+## Olá, mundo! ##
 
 Dias atrás decidi finalmente tirar da estante e ler o livro **Data Science do Zero** de Joel Grus.
-Pensei que documentar meu aprendizado poderia ajudar em revisões e alguns iniciantes na área. 
-Neste livro utilizamos a linguagem Python pois dispõe de inúmeras bibliotecas e é nossa favorita.
+Pensei que documentar algumas partes, poderia ajudar em revisões e alguns iniciantes na área. Dito isto, proponho proponho abordar os seguintes assuntos/capítulos da obra original (_clique em qualquer um deles para ler_):
 
-Ciência de dados é a habilidade estatística e matemática usada para criar ideias de negócios a partir de dados, indico [este artigo](https://aws.amazon.com/pt/what-is/data-science/). 
+1. [Curso intensivo de Python](#curso-intensivo-de-python)
+2. [Visualizando Dados (matplotlib)]()
+4. [Álgebra Linear]()
+5. [Estatística]()
+6. [Probabilidade]()
+9. [Obtendo Dados]()
+11. [Aprendizado de Máquina]()
+21. [Processamento de Linguagem Natural(**NLP**)]()
+24. [Banco de Dados e SQL]()
+25. [MapReduce]()
 
-## Iniciando 
+Já vou adiantando que a ciência de dados é a habilidade estatística e matemática usada para criar ideias de negócios a partir de dados, indico [este artigo](https://aws.amazon.com/pt/what-is/data-science/). 
+## Curso Intensivo de Python
 Primeiramente, é necessário baixar o Python e você pode fazer isso no site do [Python](https://www.python.org).
-Eu recomendo também, ler a documentação oficial de boas práticas do Python [(pep8)](https://pep8.org/), usaremos elas.
+Eu recomendo também, ler a documentação oficial de boas práticas do Python [(pep8)](https://pep8.org/), usaremos ela.
 
 ## Ambientes virtuais e pip
 Não crie o mau hábito de usar a instalação padrão do Python para todos seus projetos.
@@ -266,4 +275,4 @@ Já em uma linguagem tipada estaticamente, as funções e objetos tem tipos espe
     return a + b
 
 add(10, 5)
-add("Olá", "mundo")</code></pre>
+add("Olá", "mundo")</code></pre>                        
